@@ -1,0 +1,146 @@
+.testimonials {
+    padding: 120px 80px 100px 80px;
+    background-color: #D8D8EB;
+
+    @media (max-width: 800px){
+        padding: 40px 20px;
+     }
+}
+
+.testim__top {
+    text-align: center;
+    justify-items: center;
+}
+
+.testim__title {
+    font-size: 60px;
+    line-height: 66px;
+    max-width: 623px;
+    margin: 26px auto 0 auto;
+
+    @media (max-width: 800px){
+        font-size: 50px;
+        line-height: 53px;
+        margin-top: 20px;
+     }
+
+     @media (max-width: 600px){
+        font-size: 34px;
+        line-height: 38px;
+     }
+}
+
+.testim__responces {
+    margin-top: 58px;
+    display: flex;
+
+    @media (max-width: 1392px){
+        justify-content: space-between;
+     }
+
+     @media (max-width: 900px){
+        flex-direction: column;
+     }
+
+     @media (max-width: 800px){
+        margin-top: 20px;
+     }
+}
+
+.testim__responce {
+    background-color: $white;
+    max-width: 576px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px 20px 0 20px;
+
+    @media (max-width: 900px){
+        max-width: 100%;
+     }
+
+     @media (max-width: 60px){
+        padding: 20px;
+     }
+
+     @media (max-width: 400px){
+        padding: 10px;
+     }
+}
+
+.testim__pros {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 28px;
+}
+
+.testim__text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.reviewer__card2 {
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+
+.testim__responce2 {
+    margin-left: 80px;
+
+    @media (max-width: 1392px){
+        margin-left: 20px;
+     }
+
+     @media (max-width: 900px){
+        margin-left: 0;
+        margin-top: 20px;
+     }
+}
+
+.testim__nav {
+    max-width: 120px;
+    margin: 92px auto 0 auto;
+
+    @media (max-width: 800px){
+        margin: 20px auto 0 auto;
+     }
+}
+
+.arrow__left {
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.arrow__right {
+    margin-left: 20px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.testim__img {
+    max-width: 100%;
+}
+
+.purple__bdg_dual {
+    margin-left: 0;
+
+    &::after
+        {content: '';
+        position: absolute;
+        display: inline;
+        top: 7px;
+        right: -90px;
+        width: 72px;
+        height: 10px;
+        background-image: url(../../img/prpl_wave.png);
+    }
+}
+
+.purple__badge_dual {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
