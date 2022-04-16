@@ -290,7 +290,7 @@ main {
     left: -90px;
     width: 72px;
     height: 10px;
-    background-image: url(../../img/prpl_wave.png); }
+    background-image: url(../img/prpl_wave.png); }
 
 .about__left_rate {
   padding-top: 115px; }
@@ -592,7 +592,7 @@ main {
     left: -90px;
     width: 72px;
     height: 10px;
-    background-image: url(../../img/white_wave.png); }
+    background-image: url(../img/white_wave.png); }
 
 .services__title {
   font-size: 48px;
