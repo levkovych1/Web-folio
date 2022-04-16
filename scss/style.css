@@ -128,7 +128,7 @@ body {
 
 .header__burger {
   position: relative;
-  margin: 0 10px;
+  margin: 0 20px 0 10px;
   background-color: azure; }
 
 .burger__btn {
@@ -798,7 +798,7 @@ main {
     right: -90px;
     width: 72px;
     height: 10px;
-    background-image: url(../../img/prpl_wave.png); }
+    background-image: url(../img/prpl_wave.png); }
 
 .purple__badge_dual {
   margin: 0 auto;
